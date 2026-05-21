@@ -1,0 +1,23 @@
+[project]
+name = "mmm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "arviz>=0.23.4",
+    "graphviz>=0.21",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.9",
+    "nutpie>=0.15.2",
+    "pandas>=2.3.3",
+    "pymc>=5.25.1",
+    "pymc-marketing>=0.11.1",
+    "pytimetk>=2.5.0",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
